@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(201,69,69);
+    background: linear-gradient(150deg, rgba(201,69,69,1) 20%, rgba(122,12,119,1) 50%);    
+    height: 747px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    background-color: gray;
+    height: 580px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.60s;
+}
+
+#city{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#head li{
+    list-style: none;
+}
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    gap:70px;
+    align-items: center;
+    height: 70px;
+}
+
+#country-city{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 70px;
+}
+
+#time{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    height: 70px;
+}
+
+#date{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 70px;
+}
+
+#weather-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+}
+
+#temperature{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    height: 90px;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#water,#km{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+#feels-like{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;   
+}
+
+.input{
+    background-color: white;
+    width: 95%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: center;
+
+}
+
+input{
+    width: 88%;
+    height: 20px;
+    border: none;
+    outline: none;
+}
