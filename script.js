@@ -45,7 +45,7 @@ function backgroundRender(a){
     if(a == "Sunny"){
         container.style.background = "#FC9601"
     }
-    else if(a == "Partly cloudy"){
+    else if(a == "Partly cloudy"|| a == "Overcast"){
         container.style.background = "#9aa6a6"
     }
     else if(a == "Light drizzle" || a == "Light rain" || a == "Patchy light drizzle"){
