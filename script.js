@@ -54,4 +54,7 @@ function backgroundRender(a){
     else if(a == "Light snow"){
         container.style.background = "rgb(200, 194, 194)"
     }
+    else if(a == "Clear"){
+        container.style.background = "#345770"
+    }
 }
